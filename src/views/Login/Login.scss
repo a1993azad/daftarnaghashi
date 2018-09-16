@@ -1,0 +1,27 @@
+@import '../../assets/config';
+.loginWrapper{
+  max-width: 500px;
+  background: $white;
+ width: 100%;
+.rounded-circle{
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  color:$blue;
+  line-height: 9em;
+}
+
+}
+.RegisterWrapper{
+  max-width: 500px;
+  background: $white;
+ width: 100%;
+  .rounded-circle{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    color:$violet2;
+    line-height: 9em;
+  }
+
+}

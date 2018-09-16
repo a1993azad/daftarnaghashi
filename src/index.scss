@@ -1,0 +1,38 @@
+@import "assets/config";
+
+@font-face {
+  font-family: 'iransans';
+  src: url('assets/fonts/IRANSansWeb.eot?#') format("eot"), url('assets/fonts/IRANSansWeb.woff') format("woff"), url('assets/fonts/IRANSansWeb.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'iransansBold';
+  src: url('assets/fonts/IRANSansWeb_Bold.eot?#') format("eot"), url('assets/fonts/IRANSansWeb_Bold.woff') format("woff"), url('assets/fonts/IRANSansWeb_Bold.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'Lalezar';
+  src: url('assets/fonts/Lalezar.eot?#') format("eot"), url('assets/fonts/Lalezar.woff') format("woff"), url('assets/fonts/Lalezar.ttf') format("truetype");
+  /* Saf3â€”5, Chrome4+, FF3.5, Opera 10+ */
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: $iransans !important;
+  direction: rtl;
+}
+body{
+  &.loginPage{
+    background: url("assets/img/bgPattern.png");
+  }
+}
+.center-block{
+  display: block;
+  margin: auto;
+}
+.CardHeaderA{
+  width: 100%;
+  margin: 0 !important;
+  @include box-shadow(none !important);
+  @include border-radius(3px 3px 0 0 !important);
+}
